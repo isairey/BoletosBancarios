@@ -63,15 +63,15 @@ funcoes_xxx.php  # Lógica y cálculos (código de barras, línea digitável)
 
 # Clonar el repositorio
 ```
-git clone https://github.com/tu-repo/boletophp.git
+git clone https://github.com/isairey/BoletosBancarios.git
 ```
 # Acceder al proyecto
 ```
-cd boletophp
+cd BoletosBancarios
 ```
 # Ejecutar en servidor local
 ```
-http://localhost/boletophp
+http://localhost/BoletosBancarios
 ```
 ---
 
