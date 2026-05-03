@@ -1,22 +1,26 @@
-💳 BoletoPHP — Generador de Boletos Bancarios en PHP
+# 💳 BoletoPHP — Generador de Boletos Bancarios en PHP
 
+![License](https://img.shields.io/badge/license-GPL-green)
+![PHP](https://img.shields.io/badge/PHP-7%2B-blue)
+![Status](https://img.shields.io/badge/status-active-success)
 
+Sistema open-source para la **generación de boletos bancarios en PHP**, diseñado para ser flexible, extensible y fácil de adaptar a múltiples instituciones financieras.
 
+---
 
+## 📌 Descripción
 
-
-Sistema open-source para la generación de boletos bancarios en PHP, diseñado para ser flexible, extensible y fácil de adaptar a múltiples instituciones financieras.
-
-📌 Descripción
-
-BoletoPHP es una solución enfocada en desarrolladores que necesitan integrar la generación de boletos de pago dentro de sus sistemas.
+**BoletoPHP** es una solución enfocada en desarrolladores que necesitan integrar la generación de boletos de pago dentro de sus sistemas.
 
 El proyecto sigue una arquitectura modular simple basada en 3 archivos por banco, lo que permite agregar nuevas entidades financieras de forma rápida y ordenada.
 
-⚙️ Arquitectura del Sistema
+---
+
+## ⚙️ Arquitectura del Sistema
 
 Cada banco implementado sigue una estructura estándar:
 
+```bash
 boleto_xxx.php   # Datos del boleto
 layout_xxx.php   # Diseño HTML del boleto
 funcoes_xxx.php  # Lógica y cálculos (código de barras, línea digitável)
